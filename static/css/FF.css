@@ -1,0 +1,39 @@
+
+#mainmodal {
+    position: relative;
+    /*font-family: "Arial";*/
+    top: 50px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.modalconent {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFD700;
+    width: 100%;
+    height: 30px;
+    padding: 70px;
+}
+
+.breakingtitle {
+	font-size: 44px;
+	background: black;
+	color: #FFD700;
+	padding: 10px;
+    text-align: center  ;
+}
+
+
+.marquee {
+	color: black;
+	letter-spacing: 2px;
+	font-weight: 700;
+	padding: 10px;
+	font-size: 40px;
+}
