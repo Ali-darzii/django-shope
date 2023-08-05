@@ -152,12 +152,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # SESSION_COOKIE_AGE = 5   this code will give permission how long can client be login ,
 # default in django is 2 week
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'ali.darrzi.1382@gmail.com'
-EMAIL_HOST_PASSWORD = 'pmmmvkfijdjbgrni'
-EMAIL_PORT = 587
+
 
 JALALI_DATE_DEFAULTS = {
     'Strftime': {
